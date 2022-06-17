@@ -35,3 +35,9 @@ function solution(id_list, report, k) {
     }
     return answer;
 }
+
+/*신고한 사람 => 신고 받은 사람 과 신고 받은 사람 => count 을 key value로 object를 만들어서 확인한 후 신고 받은
+사람의 count가 k와 일치하는 사람만 골라내는 작업을 유도.. 조건이 너무많아서 복잡함
+
+다시 풀어봐야함 (시간 복잡도 실패)
+*/
